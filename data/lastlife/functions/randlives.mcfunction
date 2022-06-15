@@ -1,2 +1,2 @@
 function fafik77:rng/rand
-scoreboard players operation @s Lives = number RNG_77
+scoreboard players operation @s Lives = number RNG
