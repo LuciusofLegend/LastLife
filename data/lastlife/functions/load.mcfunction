@@ -17,5 +17,16 @@ scoreboard players add #clock_time RNG 1
 scoreboard players set min RNG 3
 scoreboard players set max RNG 5
 
-#  Add Lives score
-scoreboard objectives add Lives trigger "Lives"
+#  Add lives score
+scoreboard objectives add lives dummy
+scoreboard objectives setdisplay belowName lives
+
+#  Add death detector score
+scoreboard objectives add deathdetector deathCount
+scoreboard players set @a deathdetector 0
+
+#  Set the title timings
+title @a times 10 30 15
+
+#  Set gamerule instant respawn to true (for best effect on death)
+gamerule doImmediateRespawn true
