@@ -2,4 +2,4 @@
 
 Decide if I should keep the title message on death
 
-Add all the boogeyman features back
+Fix new players getting the "Welcome Back" message in start.mcfunction
