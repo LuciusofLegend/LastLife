@@ -1,5 +1,6 @@
-
 {
-	"values": ["lastlife:load"]
+	"values": [
+		"lastlife:load",
+		"lastlife:rng/initialize"
+	]
 }
-
