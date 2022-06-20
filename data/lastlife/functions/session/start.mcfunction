@@ -20,12 +20,9 @@ execute as @a if score @s returning matches 1 run title @s title {"text": "Welco
 
 #  Start the boogeyman countdown
 schedule function lastlife:boogey/warn 10800t
-schedule function lastlife:boogey/suspense/begin 11780t
-schedule function lastlife:boogey/suspense/3 11820t
-schedule function lastlife:boogey/suspense/2 11860t
-schedule function lastlife:boogey/suspense/1 11900t
-schedule function lastlife:boogey/suspense/youare 11940t
-schedule function lastlife:boogey/choose 12000t
+
+#  End the session in 2 hours
+schedule function lastlife:session/end 7200s
 
 #  Set online players to returning players
 scoreboard players set @a returning 1
