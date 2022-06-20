@@ -6,11 +6,8 @@ scoreboard objectives setdisplay belowName lives
 scoreboard objectives add deathdetector deathCount
 scoreboard players set @a deathdetector 0
 
-#  Setup timekeeper
-scoreboard objectives add countdown dummy
-scoreboard objectives add keeptime dummy
-scoreboard players set timekeeper countdown 12000
-scoreboard players set timekeeper keeptime 0
+#  Setup a score to track who is a new player
+scoreboard objectives add returning dummy
 
 #  Setup boogeyman scores
 scoreboard objectives add boogeyman dummy

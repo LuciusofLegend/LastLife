@@ -1,5 +1,2 @@
 ###  To Do  ###
 
-Decide if I should keep the title message on death
-
-Fix new players getting the "Welcome Back" message in start.mcfunction
