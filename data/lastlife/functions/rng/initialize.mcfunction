@@ -7,7 +7,3 @@ execute unless score #const2 RNG matches 1.. run scoreboard players set #const2 
 scoreboard players add #prev_number RNG 0
 scoreboard players set #m1 RNG -1
 scoreboard players add #clock_time RNG 1
-
-#  Set RNG range
-scoreboard players set min RNG 3
-scoreboard players set max RNG 5

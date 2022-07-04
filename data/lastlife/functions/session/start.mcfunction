@@ -24,5 +24,8 @@ schedule function lastlife:boogey/warn 10800t
 #  End the session in 2 hours
 schedule function lastlife:session/end 7200s
 
-#  Set online players to returning players
+#  Set attending players to returning players
 scoreboard players set @a returning 1
+
+#  Set all boogeyman scores to 0 (to check for players who are not boogeymen)
+scoreboard players set @a boogeyman 0
